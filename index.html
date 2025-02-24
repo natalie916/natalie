@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href=src/style.css>
     <title>Document</title>
@@ -12,22 +15,34 @@
   <body>
     <div class="application">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city ..." required />
-          <input type="submit" value="search" />
+        <form class="form">
+          <input
+            type="search"
+            placeholder="Enter a city ..."
+            required
+            class="city"
+          />
+          <input type="submit" value="Search" class="search" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Thursday 14:43, scattered clouds
-            <br />
-            Humidity 87%, wind: 3.1km/h
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Paris</h1>
+            <p class="weather-details">
+              Thursday 14:43, scattered clouds
+              <br />
+              Humidity<strong> 87%</strong>, wind:<strong>3.1km/h</strong>
+            </p>
+          </div>
+          <div class="weather-section">
+            <div class="weather-icon">⛅</div>
+            <div class="temperature">12</div>
+            <div class="unit">°C</div>
+          </div>
         </div>
-        <div>⛅12°C</div>
       </main>
+
       <footer>
         This project was coded by
         <a href="https://github.com/natalie916/" target="_blank">Natalie M💎</a

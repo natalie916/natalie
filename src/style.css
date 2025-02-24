@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(62, 113, 148);
+  background-color: #a6aeb4;
   font-family: "Roboto Mono", serif;
 }
 
@@ -9,4 +9,63 @@ body {
   margin: 30px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65 58 90, 0.05);
+}
+.city {
+  background-color: #a6aeb4;
+  border: none;
+  border-radius: 8px;
+  width: 75%;
+  padding: 20px;
+}
+.search {
+  background: rgb(228, 36, 202);
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  margin-left: 8px;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+footer {
+  text-align: center;
+  border-top: 1px solid #a6aeb4;
+  padding: 30px 0 0 0;
+  font-size: 14px;
+}
+
+main {
+  padding: 30px;
+}
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 40px;
+}
+.weather-details {
+  font-size: 18px;
+  color: #a6aeb4;
+  line-height: 20px;
+}
+.weather-details strong {
+  color: pink;
+}
+.weather-section {
+  display: flex;
+}
+.temperature {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.weather-icon {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.unit {
+  margin-top: 30px;
+  font-size: 25px;
 }
